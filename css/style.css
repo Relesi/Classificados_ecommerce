@@ -1,0 +1,198 @@
+* {margin: 0 auto; padding: 0;}
+
+body{
+    background-image: url('../img/background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#dvBarraTopo{
+    background-color: #111;
+    width:100%;
+    height:30px;
+}
+
+#dvTopo{
+    background-image: url('../img/gradiente.png');
+    width:100%;
+    height:160px;
+}
+
+#dvCentroTopo{
+    width:1000px;
+}
+
+#dvLogo{
+    width:250px;
+    float:left;
+}
+
+#dvLogo img{
+    border:none;
+}
+
+
+#dvPesquisa{
+    width: 315px;
+    height:auto;
+    float:right;
+    background-color: #FFF;
+    border:1px solid #CCC;
+    margin-top:50px;
+    border-radius:4px;
+}
+
+#txtPesquisa{
+    width:250px;
+    height:30px;
+    padding:5px;
+    border:none;
+    background-color:#FFF;
+    margin-left: 3px;
+    outline: none;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#btnSubmit{
+    width:34px;
+    height:34px;
+    background-image: url('../img/find.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+    background-color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+
+#dvMenu{
+    background-color: firebrick;
+    width:100%;
+    height:35px;
+}
+
+#dvCentroMenu{
+    width:1000px;
+}
+
+#dvCentro{
+    width:1000px;
+    height: auto;
+    border-left: 2px solid #111;
+    border-right:2px solid #111;
+    background-color: #FFF;
+}
+
+
+#dvEsquerda{
+    width:700px;
+    height:auto;
+    min-height: 600px;
+    float: left;
+    padding: 10px;
+}
+
+#dvDireita{
+    width:280px;
+    height:auto;
+    min-height: 600px;
+    float:right;
+}
+
+#dvCadastro{
+    margin:10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dvRegrasCadastro{
+    background-color: #f9f9f9;
+    border:1px solid #999;
+    padding:10px;
+    width:100%;
+    height:auto;
+    border-radius:3px;
+    box-shadow:0 0 10px beige;
+    font-family: 'Open Sans', sans-serif;
+    color:slateblue;
+    font-size:18px;
+}
+
+/*CLASS*/
+
+.clear{
+    clear:both;
+}
+
+.textoComum{
+    font-family: 'Open Sans', sans-serif;
+    color:slateblue;
+    font-size:18px;
+}
+
+.inputFormulario{
+    width:300px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color:#111;
+    font-size:18px;
+    outline-color: red;
+    margin:5px;
+}
+
+
+/*Botão*/
+
+.btnSubmit {
+    cursor:pointer;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+    background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+    background-color:#f9f9f9;
+    -webkit-border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#666666;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:40px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+}
+.btnSubmit:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+    background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+    background-color:#e9e9e9;
+}.btnSubmit:active {
+    position:relative;
+    top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
