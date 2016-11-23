@@ -141,6 +141,7 @@ if (isset($_POST['btnSubmit'])) {
             $usuario->setRua($_POST['txtRua']);
             $usuario->setBairro($_POST['txtBairro']);
             $usuario->setCep($_POST['txtCep']);
+            $usuario->setBairro($_POST['txtBairro']);
             
             if ($usuarioDAO->cadastrarUsuario($usuario)) {
                 $codPessoa = $usuarioDAO->consultarIdPorEmail($_POST['txtEmail']);
